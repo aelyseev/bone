@@ -38,8 +38,13 @@
     "gulp-babel": "^5.2.0",
     "gulp-jasmine": "^2.0.1",
     "gulp-typescript": "^2.8.1",
+    "gulp-util": "^3.0.6",
     "jasmine": "^2.3.2",
     "typescript": "^1.7.0-dev.20150827",
+    "lodash": "^3.10.1",
+    "rcloader": "^0.1.4",
+    "through2": "^2.0.0",
+    "tslint": "^2.5.0-dev.5",
     "webpack": "^1.11.0"
   },
   "peerDependencies": {
