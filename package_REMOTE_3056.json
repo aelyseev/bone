@@ -41,11 +41,6 @@
     "gulp-util": "^3.0.6",
     "jasmine": "^2.3.2",
     "typescript": "^1.7.0-dev.20150827",
-    "lodash": "^3.10.1",
-    "rcloader": "^0.1.4",
-    "through2": "^2.0.0",
-    "tslint": "^2.5.0-dev.5",
-    "typescript": "^1.7.0-dev.20150827",
     "webpack": "^1.11.0"
   },
   "peerDependencies": {

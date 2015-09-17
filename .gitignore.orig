@@ -1,0 +1,12 @@
+node_modules
+dist
+typings
+.DS_Store
+npm-debug.log
+<<<<<<< HEAD
+vscode
+.settings
+.idea
+=======
+.idea/
+>>>>>>> f5f27c2ccb3d2b272bfb2545210a5487118ef9a4
