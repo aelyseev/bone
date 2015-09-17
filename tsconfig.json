@@ -24,5 +24,25 @@
     "compileOnSave": false,
     "awesomeTypescriptLoaderOptions": {
         "compiler": "typescript"
-    }
+    },
+    "files": [
+        "./node_modules/typescript/lib/lib.es6.d.ts",
+        "./src/AbstractActionCreator.ts",
+        "./src/ActionCreator.ts",
+        "./src/ActionReducer.ts",
+        "./src/AsyncActionCreator.ts",
+        "./src/Interfaces.ts",
+        "./src/Root.ts",
+        "./src/createContext.ts",
+        "./src/decorators.ts",
+        "./src/index.ts",
+        "./tests/AbstractActionCreator_test.ts",
+        "./tests/ActionCreator_test.ts",
+        "./tests/AsyncActionCreator_test.ts",
+        "./tests/Connect_test.ts",
+        "./tests/createContext_test.ts",
+        "./tests/Root_test.tsx",
+        "./examples/SimpleDataManipulationExample/index.ts",
+        "./examples/TodoMVC/src/index.tsx"
+    ]
 }

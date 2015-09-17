@@ -5,8 +5,13 @@ var gulp = require('gulp');
 var typescript = require('gulp-typescript');
 var jasmine = require('gulp-jasmine');
 var babel = require('gulp-babel');
+var tslint = require('./gulp-tslint-1.6');
 // var path = require('path');
 
+gulp.task('tslint', function () {
+    return gulp.src('./src/*.ts')
+    .pipe(tslint());
+})
 
 gulp.task('build', function() {
     var tsConfig = require('./tsconfig.json');
@@ -31,5 +36,3 @@ gulp.task('test', ['build'], function() {
 
 
 gulp.task('default', ['test']);
-
-
